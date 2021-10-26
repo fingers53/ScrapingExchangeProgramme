@@ -37,7 +37,7 @@ pub fn get_university_data_in_country_page(html_str: &str){
         println!("Before replace: {}",link_text);
         println!("\n\nAfter trim: {}",link_text.replace("   ",""));
         link_text = link_text.replace("   ","");
-        let mut tokens: Vec<&str> = link_text;
+        //let mut tokens: Vec<&str> = link_text;
         /*
         let mut to_drop = vec![0,1];
         let length = tokens.len(); //defining this variable because the for loop needs it and cant check len mid loop in case the len changes
@@ -54,12 +54,12 @@ pub fn get_university_data_in_country_page(html_str: &str){
             tokens.remove(i);
             }
         }
-        */ 
+         
         println!("beep");
         for i in tokens{
             println!("{:?}",i);
         }
-       
+       */
             
         
     }
